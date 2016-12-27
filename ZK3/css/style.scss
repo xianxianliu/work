@@ -1,0 +1,123 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing:border-box;
+}
+html,body,.container{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	font-size: 62.5%;
+}
+.container{
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+	header{
+		width: 100%;
+		height: 44px;
+		background: #454b93;
+		display: -webkit-flex;
+		position: relative;
+		a{
+			position: absolute;
+			line-height: 44px;
+			font-weight: bolder;
+			color: #fff;
+			padding-left: 22px;
+		}
+		h1{
+			-webkit-flex:1;
+			line-height: 44px;
+			text-align: center;
+			color: #fff;
+			font-size: 18px;
+		}
+	}
+	.main{
+		width: 100%;
+		height: 100%;
+		-webkit-flex:1;
+		overflow: hidden;
+
+		nav{
+			width: 100%;
+			height: 44px;
+			background: #f4f4f4;
+			border-bottom: 1px solid #e9e9e9;
+
+			ul{
+				width: 100%;
+				height: 100%;
+				display: -webkit-flex;
+				li{
+					-webkit-flex:1;
+					list-style: none;
+					text-align: center;
+					line-height: 44px;
+					padding-left: 1px solid #e9e9e9;
+				}
+				li:first-child{
+					position: relative;
+				}
+				
+					img{
+						width: 11px;
+						height: 18px;
+						display: inline;
+						
+						position: absolute;
+						right: 25px;
+						top:13px;
+					}
+				
+				.bg{
+					border-bottom:1px solid #ccc;
+				}
+			}
+		}
+		.dll{
+			width: 95%;
+			height: 120px;
+			border-bottom: 1px solid #f4f4f4;
+			dl{
+				display: -webkit-flex;
+				dt{
+					margin: 18px 14px 21px 21px;
+					img{
+						width: 96px;
+						height: 73px;
+					}
+				}
+				dd{
+					width: 50%;
+					margin-right: 20px;
+					h2{
+						font-size: 12px;
+						padding-top: 18px;
+					}
+					span{
+						line-height: 20px;
+						img{
+							width: 47px;
+							height: 15px;
+						}
+					}
+					p{ 
+						width: 100%;
+						line-height: 20px;
+						display: -webkit-flex;
+						span{
+							float: right;
+							padding-left: 20px;
+							m{
+								 color: #f36018;
+								font-size: 16px;
+							}
+						}
+					}
+				}
+			}
+		}
+		
+	}
+}

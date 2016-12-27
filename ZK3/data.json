@@ -1,0 +1,48 @@
+{
+  "data": [{
+    "id":1,
+    "img": "./images/1_03.jpg",
+    "title": "肯德基(中关村店)" ,
+    "imgs":"./images/3_07.jpg",
+    "count":12,
+    "may":12,
+    "song":"起送",
+    "kim":537,
+    "peis":6
+  },
+  {
+    "id":2,
+    "img": "./images/1_11.jpg",
+    "title": "肯德基(中关村店)" ,
+    "imgs":"./images/3_07.jpg",
+    "count":12,
+    "may":12,
+    "song":"起送",
+    "kim":537,
+    "peis":6
+  },
+  {
+    "id":3,
+    "img": "./images/1_15.jpg",
+    "title": "肯德基(中关村店)" ,
+    "imgs":"./images/3_07.jpg",
+    "count":12,
+    "may":12,
+    "song":"起送",
+    "kim":537,
+    "peis":6
+  },
+  {
+    "id":4,
+    "img": "./images/1_18.jpg",
+    "title": "肯德基(中关村店)" ,
+    "imgs":"./images/3_07.jpg",
+    "count":12,
+    "may":12,
+    "song":"起送",
+    "kim":537,
+    "peis":6
+  }
+ 
+  ]
+}

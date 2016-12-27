@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<a href="#"><img src="images/1_03.png" alt=""></a>
+			<h1>我要选座</h2>
+		</header>
+		<section>
+			<div class="uls">
+				<ul>
+					<li class="bg">送票上门</li>
+					<li>下铺</li>
+					<li>靠窗</li>
+					<li>宝箱/连坐</li>
+				</ul>
+			</div>
+			<div class="num">
+				<p>
+					至少
+					<!-- <img src="images/1_11.png" alt="" id="btn1"> -->
+					<button id="btn1">-</button>
+					<input type="text" id="text" value="1">
+					<button id="btn2">+</button>
+					<!-- <img id="btn2" src="images/1_13.png" alt="">-->
+					张下铺 
+				</p>
+
+				<div>
+					<span>当指定下铺无票时,接受下铺</span>
+					<b><img src="images/1_18.png" alt=""></b>
+				</div>
+			</div>
+			<div class="wen-zi">
+				<h2>配送消息</h2>
+				<p><small>收件人</small><span>张三</span></p>
+				<p>配送区域<span>北京市海淀区软件园南站</span></p>
+				<p>收件地址<span>北京市海淀区软件园南站</span></p>
+			</div>
+		</section>
+		<footer>
+			<button class="btn1">取消</button>
+			<button class="btn2">确定</button>
+		</footer>
+	</div>
+	
+<script>
+	var txt=document.getElementById("text"),
+		btn1=document.getElementById("btn1"),
+		btn2=document.getElementById("btn2");
+		btn2.onclick=function(){
+		    	txt.value=Number(txt.value)+1
+		    	if(txt.value==5){
+		    		alert("你最多只能购买5个商品！")
+		    	}
+		    }
+	    btn1.onclick=function(){
+	    	txt.value=Number(txt.value)-1
+	    	if(txt.value<0){
+	    		txt.value=0
+	    		
+	    	}
+	    	if(txt.value==1){
+	    		alert("确定不购买该商品了吗？")
+	    	}
+	    }
+
+</script>
+</body>
+</html>
